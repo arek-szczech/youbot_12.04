@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/install
+
+Name: youbot_driver
+Description: Description of youbot_driver
+Version: 1.1.0
+Cflags: -I/home/arek/youbot/install/include -I/usr/include
+Libs: -L/home/arek/youbot/install/lib -lYouBotDriver -lsoem -lrt -l:/usr/lib/libboost_thread-mt.so -l:/usr/lib/libboost_date_time-mt.so -l:/usr/lib/libboost_filesystem-mt.so -l:/usr/lib/libboost_system-mt.so -l:/usr/lib/libboost_regex-mt.so
+Requires: roscpp rosconsole

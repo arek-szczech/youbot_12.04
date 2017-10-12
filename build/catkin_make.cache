@@ -1,0 +1,2 @@
+brics_actuator-master:youbot_description-hydro-devel:youbot_driver-hydro-devel:youbot_driver_ros_interface-hydro-devel
+-DCATKIN_DEVEL_PREFIX=/home/arek/youbot/devel -DCMAKE_INSTALL_PREFIX=/home/arek/youbot/install

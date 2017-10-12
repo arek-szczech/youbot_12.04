@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/devel
+
+Name: youbot_driver
+Description: Description of youbot_driver
+Version: 1.1.0
+Cflags: -I/home/arek/youbot/src/youbot_driver-hydro-devel/include -I/home/arek/youbot/src/youbot_driver-hydro-devel/include/youbot_driver/soem/osal -I/home/arek/youbot/src/youbot_driver-hydro-devel/include/youbot_driver/soem/oshw/linux -I/usr/include
+Libs: -L/home/arek/youbot/devel/lib -lYouBotDriver -lsoem -lrt -l:/usr/lib/libboost_thread-mt.so -l:/usr/lib/libboost_date_time-mt.so -l:/usr/lib/libboost_filesystem-mt.so -l:/usr/lib/libboost_system-mt.so -l:/usr/lib/libboost_regex-mt.so
+Requires: roscpp rosconsole

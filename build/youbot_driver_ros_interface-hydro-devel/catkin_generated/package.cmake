@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "youbot_driver_ros_interface")
+set(youbot_driver_ros_interface_MAINTAINER "Walter Nowak <nowak@locomotec.com>")
+set(youbot_driver_ros_interface_DEPRECATED "")
+set(youbot_driver_ros_interface_VERSION "1.1.0")
+set(youbot_driver_ros_interface_BUILD_DEPENDS "actionlib" "brics_actuator" "control_msgs" "diagnostic_msgs" "geometry_msgs" "nav_msgs" "pr2_msgs" "roscpp" "rosconsole" "std_msgs" "std_srvs" "tf" "trajectory_msgs" "youbot_driver")
+set(youbot_driver_ros_interface_RUN_DEPENDS "actionlib" "brics_actuator" "control_msgs" "diagnostic_msgs" "geometry_msgs" "nav_msgs" "pr2_msgs" "roscpp" "rosconsole" "std_msgs" "std_srvs" "tf" "trajectory_msgs" "youbot_driver")
+set(youbot_driver_ros_interface_BUILDTOOL_DEPENDS "catkin")
