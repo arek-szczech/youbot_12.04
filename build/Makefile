@@ -991,6 +991,19 @@ youbot_driver_ros_interface/fast:
 	$(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/build
 .PHONY : youbot_driver_ros_interface/fast
 
+#=============================================================================
+# Target rules for targets named youbot_gazebo_publisher
+
+# Build rule for target.
+youbot_gazebo_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 youbot_gazebo_publisher
+.PHONY : youbot_gazebo_publisher
+
+# fast build rule for target.
+youbot_gazebo_publisher/fast:
+	$(MAKE) -f youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/build.make youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/build
+.PHONY : youbot_gazebo_publisher/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1069,6 +1082,7 @@ help:
 	@echo "... youbot_2nd_arm_test"
 	@echo "... youbot_arm_test"
 	@echo "... youbot_driver_ros_interface"
+	@echo "... youbot_gazebo_publisher"
 .PHONY : help
 
 

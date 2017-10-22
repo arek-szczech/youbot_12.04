@@ -313,9 +313,9 @@ clean: brics_actuator-master/CMakeFiles/brics_actuator_gencpp.dir/clean
 # Target rules for target brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir
 
 # All Build rule for target.
-brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir/all: brics_actuator-master/CMakeFiles/brics_actuator_generate_messages_lisp.dir/all
 brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir/all: brics_actuator-master/CMakeFiles/brics_actuator_generate_messages_cpp.dir/all
 brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir/all: brics_actuator-master/CMakeFiles/brics_actuator_generate_messages_py.dir/all
+brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir/all: brics_actuator-master/CMakeFiles/brics_actuator_generate_messages_lisp.dir/all
 	$(MAKE) -f brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir/build.make brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir/depend
 	$(MAKE) -f brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir/build.make brics_actuator-master/CMakeFiles/brics_actuator_generate_messages.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/arek/youbot/build/CMakeFiles 
@@ -2231,56 +2231,56 @@ clean: youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_arm_test.dir/cl
 # Target rules for target youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir
 
 # All Build rule for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/brics_actuator_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/brics_actuator_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/std_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/brics_actuator_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: brics_actuator-master/CMakeFiles/brics_actuator_generate_messages_lisp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/YouBotDriver.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/src/soem/CMakeFiles/soem.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/pr2_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/pr2_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_py.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/pr2_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/pr2_msgs_generate_messages_cpp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/pr2_msgs_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_py.dir/all
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_lisp.dir/all
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/all: youbot_driver_ros_interface-hydro-devel/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/all
 	$(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/depend
 	$(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/arek/youbot/build/CMakeFiles  84 85 86 87
@@ -2310,6 +2310,116 @@ youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.d
 # clean rule for target.
 clean: youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory youbot_gazebo_control
+
+# Convenience name for "all" pass in the directory.
+youbot_gazebo_control/all:
+.PHONY : youbot_gazebo_control/all
+
+# Convenience name for "clean" pass in the directory.
+youbot_gazebo_control/clean:
+.PHONY : youbot_gazebo_control/clean
+
+# Convenience name for "preinstall" pass in the directory.
+youbot_gazebo_control/preinstall:
+.PHONY : youbot_gazebo_control/preinstall
+
+#=============================================================================
+# Directory level rules for directory youbot_gazebo_publisher/youbot_gazebo_publisher
+
+# Convenience name for "all" pass in the directory.
+youbot_gazebo_publisher/youbot_gazebo_publisher/all: youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/all
+.PHONY : youbot_gazebo_publisher/youbot_gazebo_publisher/all
+
+# Convenience name for "clean" pass in the directory.
+youbot_gazebo_publisher/youbot_gazebo_publisher/clean: youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/clean
+.PHONY : youbot_gazebo_publisher/youbot_gazebo_publisher/clean
+
+# Convenience name for "preinstall" pass in the directory.
+youbot_gazebo_publisher/youbot_gazebo_publisher/preinstall:
+.PHONY : youbot_gazebo_publisher/youbot_gazebo_publisher/preinstall
+
+#=============================================================================
+# Target rules for target youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir
+
+# All Build rule for target.
+youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/all:
+	$(MAKE) -f youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/build.make youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/depend
+	$(MAKE) -f youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/build.make youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/arek/youbot/build/CMakeFiles  88
+	@echo "Built target youbot_gazebo_publisher"
+.PHONY : youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/all
+
+# Include target in all.
+all: youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arek/youbot/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/arek/youbot/build/CMakeFiles 0
+.PHONY : youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/rule
+
+# Convenience name for target.
+youbot_gazebo_publisher: youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/rule
+.PHONY : youbot_gazebo_publisher
+
+# clean rule for target.
+youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/clean:
+	$(MAKE) -f youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/build.make youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/clean
+.PHONY : youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/clean
+
+# clean rule for target.
+clean: youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory youbot_gazebo_robot
+
+# Convenience name for "all" pass in the directory.
+youbot_gazebo_robot/all:
+.PHONY : youbot_gazebo_robot/all
+
+# Convenience name for "clean" pass in the directory.
+youbot_gazebo_robot/clean:
+.PHONY : youbot_gazebo_robot/clean
+
+# Convenience name for "preinstall" pass in the directory.
+youbot_gazebo_robot/preinstall:
+.PHONY : youbot_gazebo_robot/preinstall
+
+#=============================================================================
+# Directory level rules for directory youbot_gazebo_worlds
+
+# Convenience name for "all" pass in the directory.
+youbot_gazebo_worlds/all:
+.PHONY : youbot_gazebo_worlds/all
+
+# Convenience name for "clean" pass in the directory.
+youbot_gazebo_worlds/clean:
+.PHONY : youbot_gazebo_worlds/clean
+
+# Convenience name for "preinstall" pass in the directory.
+youbot_gazebo_worlds/preinstall:
+.PHONY : youbot_gazebo_worlds/preinstall
+
+#=============================================================================
+# Directory level rules for directory youbot_simulation
+
+# Convenience name for "all" pass in the directory.
+youbot_simulation/all:
+.PHONY : youbot_simulation/all
+
+# Convenience name for "clean" pass in the directory.
+youbot_simulation/clean:
+.PHONY : youbot_simulation/clean
+
+# Convenience name for "preinstall" pass in the directory.
+youbot_simulation/preinstall:
+.PHONY : youbot_simulation/preinstall
 
 #=============================================================================
 # Special targets to cleanup operation of make.

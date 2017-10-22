@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "youbot_gazebo_robot")
+set(youbot_gazebo_robot_MAINTAINER "Walter Nowak <nowak@locomotec.com>, Sebastian Blumenthal <blumenthal@locomotec.com>")
+set(youbot_gazebo_robot_DEPRECATED "")
+set(youbot_gazebo_robot_VERSION "0.8.0")
+set(youbot_gazebo_robot_BUILD_DEPENDS )
+set(youbot_gazebo_robot_RUN_DEPENDS "xacro" "youbot_gazebo_control" "youbot_gazebo_worlds" "youbot_description" "gazebo_ros" "robot_state_publisher")
+set(youbot_gazebo_robot_BUILDTOOL_DEPENDS "catkin")

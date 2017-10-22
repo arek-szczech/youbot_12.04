@@ -63,3 +63,4 @@
 /home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_2nd_arm_test.dir
 /home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_arm_test.dir
 /home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir
+/home/arek/youbot/build/youbot_gazebo_publisher/youbot_gazebo_publisher/CMakeFiles/youbot_gazebo_publisher.dir

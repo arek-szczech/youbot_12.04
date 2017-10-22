@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "youbot_gazebo_publisher")
+set(youbot_gazebo_publisher_MAINTAINER "Walter Nowak <vijendrasingh003@gmail.com>")
+set(youbot_gazebo_publisher_DEPRECATED "")
+set(youbot_gazebo_publisher_VERSION "0.0.0")
+set(youbot_gazebo_publisher_BUILD_DEPENDS "brics_actuator" "geometry_msgs" "trajectory_msgs" "roscpp")
+set(youbot_gazebo_publisher_RUN_DEPENDS "brics_actuator" "geometry_msgs" "trajectory_msgs" "roscpp")
+set(youbot_gazebo_publisher_BUILDTOOL_DEPENDS "catkin")

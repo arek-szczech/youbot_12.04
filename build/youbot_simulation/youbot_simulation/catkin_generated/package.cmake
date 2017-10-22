@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "youbot_simulation")
+set(youbot_simulation_MAINTAINER "Walter Nowak <nowak@locomotec.com>, Sebastian Blumenthal <blumenthal@locomotec.com>")
+set(youbot_simulation_DEPRECATED "")
+set(youbot_simulation_VERSION "0.8.0")
+set(youbot_simulation_BUILD_DEPENDS )
+set(youbot_simulation_RUN_DEPENDS "youbot_gazebo_control" "youbot_gazebo_robot" "youbot_gazebo_worlds")
+set(youbot_simulation_BUILDTOOL_DEPENDS "catkin")

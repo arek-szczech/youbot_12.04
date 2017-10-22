@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/install
+
+Name: youbot_gazebo_publisher
+Description: Description of youbot_gazebo_publisher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/arek/youbot/install/lib 
+Requires: 

@@ -93,6 +93,11 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   INCLUDE("/home/arek/youbot/build/youbot_description-hydro-devel/cmake_install.cmake")
   INCLUDE("/home/arek/youbot/build/youbot_driver-hydro-devel/cmake_install.cmake")
   INCLUDE("/home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/cmake_install.cmake")
+  INCLUDE("/home/arek/youbot/build/youbot_gazebo_control/cmake_install.cmake")
+  INCLUDE("/home/arek/youbot/build/youbot_gazebo_publisher/youbot_gazebo_publisher/cmake_install.cmake")
+  INCLUDE("/home/arek/youbot/build/youbot_gazebo_robot/cmake_install.cmake")
+  INCLUDE("/home/arek/youbot/build/youbot_gazebo_worlds/cmake_install.cmake")
+  INCLUDE("/home/arek/youbot/build/youbot_simulation/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
