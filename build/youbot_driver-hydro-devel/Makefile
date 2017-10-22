@@ -160,90 +160,6 @@ YouBotDriver/fast:
 	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver-hydro-devel/CMakeFiles/YouBotDriver.dir/build.make youbot_driver-hydro-devel/CMakeFiles/YouBotDriver.dir/build
 .PHONY : YouBotDriver/fast
 
-# Convenience name for target.
-youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_cpp: youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
-.PHONY : roscpp_generate_messages_cpp
-
-# fast build rule for target.
-roscpp_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_cpp.dir/build
-.PHONY : roscpp_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_lisp: youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
-.PHONY : roscpp_generate_messages_lisp
-
-# fast build rule for target.
-roscpp_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_lisp.dir/build
-.PHONY : roscpp_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_py.dir/rule
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_py.dir/build.make youbot_driver-hydro-devel/CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-# Convenience name for target.
-youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_cpp: youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_cpp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-rosgraph_msgs_generate_messages_py: youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
-.PHONY : rosgraph_msgs_generate_messages_py
-
-# fast build rule for target.
-rosgraph_msgs_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make youbot_driver-hydro-devel/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-.PHONY : rosgraph_msgs_generate_messages_py/fast
-
 src/base-kinematic/FourSwedishWheelOmniBaseKinematic.o: src/base-kinematic/FourSwedishWheelOmniBaseKinematic.cpp.o
 .PHONY : src/base-kinematic/FourSwedishWheelOmniBaseKinematic.o
 
@@ -809,12 +725,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... roscpp_generate_messages_cpp"
-	@echo "... roscpp_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_cpp"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... test"
 	@echo "... src/base-kinematic/FourSwedishWheelOmniBaseKinematic.o"
 	@echo "... src/base-kinematic/FourSwedishWheelOmniBaseKinematic.i"

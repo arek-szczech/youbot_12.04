@@ -90,6 +90,8 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/arek/youbot/build/gtest/cmake_install.cmake")
   INCLUDE("/home/arek/youbot/build/brics_actuator-master/cmake_install.cmake")
+  INCLUDE("/home/arek/youbot/build/joint_state_controller/cmake_install.cmake")
+  INCLUDE("/home/arek/youbot/build/joint_trajectory_controller/cmake_install.cmake")
   INCLUDE("/home/arek/youbot/build/youbot_description-hydro-devel/cmake_install.cmake")
   INCLUDE("/home/arek/youbot/build/youbot_driver-hydro-devel/cmake_install.cmake")
   INCLUDE("/home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/cmake_install.cmake")

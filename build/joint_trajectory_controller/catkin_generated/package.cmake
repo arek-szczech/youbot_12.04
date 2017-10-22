@@ -1,0 +1,8 @@
+set(_CATKIN_CURRENT_PACKAGE "joint_trajectory_controller")
+set(joint_trajectory_controller_VERSION "0.7.3")
+set(joint_trajectory_controller_MAINTAINER "Adolfo Rodriguez Tsouroukdissian <adolfo.rodriguez@pal-robotics.com>")
+set(joint_trajectory_controller_BUILD_DEPENDS "cmake_modules" "actionlib" "angles" "roscpp" "urdf" "control_toolbox" "controller_interface" "hardware_interface" "realtime_tools" "control_msgs" "trajectory_msgs" "rostest" "controller_manager" "xacro")
+set(joint_trajectory_controller_RUN_DEPENDS "actionlib" "angles" "roscpp" "urdf" "control_toolbox" "controller_interface" "hardware_interface" "realtime_tools" "control_msgs" "trajectory_msgs" "rostest" "controller_manager" "xacro" "rqt_plot")
+set(joint_trajectory_controller_DEPRECATED "")
+set(joint_trajectory_controller_BUILDTOOL_DEPENDS "catkin")
+set(joint_trajectory_controller_BUILDTOOL_DEPENDS_catkin_VERSION_GTE "0.5.68")

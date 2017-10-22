@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/devel
+
+Name: joint_state_controller
+Description: Description of joint_state_controller
+Version: 0.7.3
+Cflags: -I/home/arek/youbot/src/joint_state_controller/include
+Libs: -L/home/arek/youbot/devel/lib -ljoint_state_controller
+Requires: realtime_tools roscpp hardware_interface pluginlib controller_interface sensor_msgs

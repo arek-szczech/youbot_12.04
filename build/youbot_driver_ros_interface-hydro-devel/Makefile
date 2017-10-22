@@ -147,132 +147,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_cpp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-.PHONY : actionlib_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-.PHONY : actionlib_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_lisp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_py: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_py.dir/rule
-.PHONY : actionlib_generate_messages_py
-
-# fast build rule for target.
-actionlib_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_py.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_generate_messages_py.dir/build
-.PHONY : actionlib_generate_messages_py/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_cpp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-.PHONY : actionlib_msgs_generate_messages_cpp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_lisp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-.PHONY : actionlib_msgs_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-.PHONY : actionlib_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-actionlib_msgs_generate_messages_py: youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-.PHONY : actionlib_msgs_generate_messages_py
-
-# fast build rule for target.
-actionlib_msgs_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-.PHONY : actionlib_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-control_msgs_generate_messages_cpp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
-.PHONY : control_msgs_generate_messages_cpp
-
-# fast build rule for target.
-control_msgs_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/build
-.PHONY : control_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-control_msgs_generate_messages_lisp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_lisp.dir/rule
-.PHONY : control_msgs_generate_messages_lisp
-
-# fast build rule for target.
-control_msgs_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_lisp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_lisp.dir/build
-.PHONY : control_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_py.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-control_msgs_generate_messages_py: youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_py.dir/rule
-.PHONY : control_msgs_generate_messages_py
-
-# fast build rule for target.
-control_msgs_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_py.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_py.dir/build
-.PHONY : control_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule:
 	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 .PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
@@ -399,48 +273,6 @@ pr2_msgs_generate_messages_py/fast:
 .PHONY : pr2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
 	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
 .PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
@@ -481,132 +313,6 @@ std_srvs_generate_messages_py: youbot_driver_ros_interface-hydro-devel/CMakeFile
 std_srvs_generate_messages_py/fast:
 	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_py.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/std_srvs_generate_messages_py.dir/build
 .PHONY : std_srvs_generate_messages_py/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_cpp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-.PHONY : tf2_msgs_generate_messages_cpp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-.PHONY : tf2_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_lisp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-.PHONY : tf2_msgs_generate_messages_lisp
-
-# fast build rule for target.
-tf2_msgs_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-.PHONY : tf2_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf2_msgs_generate_messages_py: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-.PHONY : tf2_msgs_generate_messages_py
-
-# fast build rule for target.
-tf2_msgs_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-.PHONY : tf2_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_cpp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_cpp.dir/rule
-.PHONY : tf_generate_messages_cpp
-
-# fast build rule for target.
-tf_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_cpp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_cpp.dir/build
-.PHONY : tf_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_lisp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_lisp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_py.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_py: youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_py.dir/rule
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_py.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_cpp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-.PHONY : trajectory_msgs_generate_messages_cpp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_lisp: youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-.PHONY : trajectory_msgs_generate_messages_lisp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_py: youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_2nd_arm_test.dir/rule:
@@ -800,15 +506,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... actionlib_generate_messages_cpp"
-	@echo "... actionlib_generate_messages_lisp"
-	@echo "... actionlib_generate_messages_py"
-	@echo "... actionlib_msgs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... actionlib_msgs_generate_messages_py"
-	@echo "... control_msgs_generate_messages_cpp"
-	@echo "... control_msgs_generate_messages_lisp"
-	@echo "... control_msgs_generate_messages_py"
 	@echo "... diagnostic_msgs_generate_messages_cpp"
 	@echo "... diagnostic_msgs_generate_messages_lisp"
 	@echo "... diagnostic_msgs_generate_messages_py"
@@ -824,22 +521,10 @@ help:
 	@echo "... pr2_msgs_generate_messages_lisp"
 	@echo "... pr2_msgs_generate_messages_py"
 	@echo "... rebuild_cache"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... std_srvs_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... test"
-	@echo "... tf2_msgs_generate_messages_cpp"
-	@echo "... tf2_msgs_generate_messages_lisp"
-	@echo "... tf2_msgs_generate_messages_py"
-	@echo "... tf_generate_messages_cpp"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... tf_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_py"
 	@echo "... youbot_2nd_arm_test"
 	@echo "... youbot_arm_test"
 	@echo "... youbot_driver_ros_interface"
