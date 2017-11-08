@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/devel
+
+Name: moveit_commander
+Description: Description of moveit_commander
+Version: 0.5.7
+Cflags: 
+Libs: -L/home/arek/youbot/src/moveit/devel/lib 
+Requires: 

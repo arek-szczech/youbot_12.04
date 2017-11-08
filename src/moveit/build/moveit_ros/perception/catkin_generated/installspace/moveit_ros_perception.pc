@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/install
+
+Name: moveit_ros_perception
+Description: Description of moveit_ros_perception
+Version: 0.5.20
+Cflags: -I/home/arek/youbot/src/moveit/install/include -I/opt/ros/hydro/include -I/usr/include/eigen3 -I/usr/include -I/usr/include/pcl-1.7
+Libs: -L/home/arek/youbot/src/moveit/install/lib -lmoveit_point_containment_filter -lmoveit_occupancy_map_monitor -lmoveit_pointcloud_octomap_updater_core -lmoveit_semantic_world -l:/opt/ros/hydro/lib/liboctomap.so -l:/opt/ros/hydro/lib/liboctomath.so
+Requires: moveit_core image_transport

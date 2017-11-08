@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/devel
+
+Name: pr2_moveit_plugins
+Description: Description of pr2_moveit_plugins
+Version: 0.5.7
+Cflags: 
+Libs: -L/home/arek/youbot/src/moveit/devel/lib 
+Requires: moveit_core

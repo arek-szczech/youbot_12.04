@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "moveit_ros_perception")
+set(moveit_ros_perception_MAINTAINER "Ioan Sucan <isucan@google.com>")
+set(moveit_ros_perception_DEPRECATED "")
+set(moveit_ros_perception_VERSION "0.5.20")
+set(moveit_ros_perception_BUILD_DEPENDS "moveit_core" "pcl_conversions" "roscpp" "rosconsole" "urdf" "tf" "tf_conversions" "message_filters" "octomap" "pluginlib" "image_transport" "glut" "libglew-dev" "opengl" "cv_bridge" "cmake_modules")
+set(moveit_ros_perception_RUN_DEPENDS "moveit_core" "pcl_conversions" "roscpp" "rosconsole" "urdf" "tf" "tf_conversions" "message_filters" "octomap" "pluginlib" "image_transport" "glut" "libglew-dev" "opengl" "cv_bridge")
+set(moveit_ros_perception_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/devel
+
+Name: moveit_ros_robot_interaction
+Description: Description of moveit_ros_robot_interaction
+Version: 0.5.20
+Cflags: -I/home/arek/youbot/src/moveit/src/moveit_ros/robot_interaction/include
+Libs: -L/home/arek/youbot/src/moveit/devel/lib -lmoveit_robot_interaction
+Requires: moveit_ros_planning interactive_markers

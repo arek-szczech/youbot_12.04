@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "moveit_resources")
+set(moveit_resources_MAINTAINER "Dave Coleman <dave@dav.ee>")
+set(moveit_resources_DEPRECATED "")
+set(moveit_resources_VERSION "0.6.2")
+set(moveit_resources_BUILD_DEPENDS )
+set(moveit_resources_RUN_DEPENDS "joint_state_publisher" "robot_state_publisher")
+set(moveit_resources_BUILDTOOL_DEPENDS "catkin")

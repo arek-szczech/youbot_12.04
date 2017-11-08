@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/install
+
+Name: moveit_ros_benchmarks
+Description: Description of moveit_ros_benchmarks
+Version: 0.5.20
+Cflags: -I/home/arek/youbot/src/moveit/install/include
+Libs: -L/home/arek/youbot/src/moveit/install/lib -lmoveit_benchmark_execution
+Requires: moveit_ros_planning moveit_ros_warehouse

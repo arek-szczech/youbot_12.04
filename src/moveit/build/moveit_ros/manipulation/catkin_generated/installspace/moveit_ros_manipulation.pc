@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/install
+
+Name: moveit_ros_manipulation
+Description: Description of moveit_ros_manipulation
+Version: 0.5.20
+Cflags: -I/home/arek/youbot/src/moveit/install/include
+Libs: -L/home/arek/youbot/src/moveit/install/lib -lmoveit_pick_place_planner
+Requires: moveit_core moveit_ros_planning

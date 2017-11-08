@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/devel
+
+Name: moveit_resources
+Description: Description of moveit_resources
+Version: 0.6.2
+Cflags: -I/home/arek/youbot/src/moveit/src/moveit_resources/include -I/home/arek/youbot/src/moveit/devel/include
+Libs: -L/home/arek/youbot/src/moveit/devel/lib 
+Requires: 

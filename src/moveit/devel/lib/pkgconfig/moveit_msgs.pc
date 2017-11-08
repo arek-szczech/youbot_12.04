@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/devel
+
+Name: moveit_msgs
+Description: Description of moveit_msgs
+Version: 0.5.4
+Cflags: -I/home/arek/youbot/src/moveit/devel/include
+Libs: -L/home/arek/youbot/src/moveit/devel/lib 
+Requires: std_msgs actionlib_msgs sensor_msgs geometry_msgs trajectory_msgs shape_msgs object_recognition_msgs octomap_msgs

@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/install
+
+Name: pr2_moveit_tests
+Description: Description of pr2_moveit_tests
+Version: 0.5.7
+Cflags: 
+Libs: -L/home/arek/youbot/src/moveit/install/lib 
+Requires: 

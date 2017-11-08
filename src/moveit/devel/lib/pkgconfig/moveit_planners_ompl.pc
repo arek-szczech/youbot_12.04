@@ -1,0 +1,8 @@
+prefix=/home/arek/youbot/src/moveit/devel
+
+Name: moveit_planners_ompl
+Description: Description of moveit_planners_ompl
+Version: 0.5.6
+Cflags: -I/home/arek/youbot/src/moveit/devel/include -I/home/arek/youbot/src/moveit/src/moveit_planners/ompl/ompl_interface/include -I/opt/ros/hydro/include
+Libs: -L/home/arek/youbot/src/moveit/devel/lib -lmoveit_ompl_interface -l:/opt/ros/hydro/lib/libompl.so
+Requires: moveit_core

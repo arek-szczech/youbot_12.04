@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arek/youbot/src/moveit/src/moveit_core/profiler/include/moveit/profiler/profiler.h
+map
+-
+string
+-
+iostream
+-
+boost/thread.hpp
+-
+boost/noncopyable.hpp
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+string
+-
+iostream
+-
+
+/home/arek/youbot/src/moveit/src/moveit_core/profiler/src/profiler.cpp
+moveit/profiler/profiler.h
+/home/arek/youbot/src/moveit/src/moveit_core/profiler/src/moveit/profiler/profiler.h
+console_bridge/console.h
+-
+vector
+-
+algorithm
+-
+sstream
+-
+
+/opt/ros/hydro/include/console_bridge/console.h
+string
+-
+

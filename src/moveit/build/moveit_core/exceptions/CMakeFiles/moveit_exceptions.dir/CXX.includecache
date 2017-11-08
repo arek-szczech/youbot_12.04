@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arek/youbot/src/moveit/src/moveit_core/exceptions/include/moveit/exceptions/exceptions.h
+stdexcept
+-
+
+/home/arek/youbot/src/moveit/src/moveit_core/exceptions/src/exceptions.cpp
+moveit/exceptions/exceptions.h
+-
+console_bridge/console.h
+-
+
+/opt/ros/hydro/include/console_bridge/console.h
+string
+-
+

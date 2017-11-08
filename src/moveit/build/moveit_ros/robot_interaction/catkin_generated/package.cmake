@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "moveit_ros_robot_interaction")
+set(moveit_ros_robot_interaction_MAINTAINER "Ioan Sucan <isucan@google.com>")
+set(moveit_ros_robot_interaction_DEPRECATED "")
+set(moveit_ros_robot_interaction_VERSION "0.5.20")
+set(moveit_ros_robot_interaction_BUILD_DEPENDS "moveit_ros_planning" "roscpp" "tf" "eigen_conversions" "interactive_markers")
+set(moveit_ros_robot_interaction_RUN_DEPENDS "moveit_ros_planning" "roscpp" "tf" "eigen_conversions" "interactive_markers")
+set(moveit_ros_robot_interaction_BUILDTOOL_DEPENDS "catkin")
