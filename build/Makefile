@@ -693,6 +693,19 @@ fk_test/fast:
 .PHONY : fk_test/fast
 
 #=============================================================================
+# Target rules for targets named ik_test
+
+# Build rule for target.
+ik_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ik_test
+.PHONY : ik_test
+
+# fast build rule for target.
+ik_test/fast:
+	$(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/build
+.PHONY : ik_test/fast
+
+#=============================================================================
 # Target rules for targets named nav_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -1059,6 +1072,7 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_lisp"
 	@echo "... diagnostic_msgs_generate_messages_py"
 	@echo "... fk_test"
+	@echo "... ik_test"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_py"

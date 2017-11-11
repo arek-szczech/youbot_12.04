@@ -28,6 +28,7 @@
 /home/arek/youbot/build/brics_actuator-master/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/arek/youbot/build/gtest/CMakeFiles/gtest.dir
 /home/arek/youbot/build/gtest/CMakeFiles/gtest_main.dir
+/home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir
 /home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_cpp.dir
 /home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_lisp.dir
 /home/arek/youbot/build/youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_py.dir

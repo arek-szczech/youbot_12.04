@@ -69,6 +69,12 @@ add_executable(fk_test
 )
 target_link_libraries(fk_test ${catkin_LIBRARIES} ${Boost_LIBRARIES} ${youbot_driver_LIBRARIES})
 
+add_executable(ik_test 
+    src/examples/ik_test.cpp 
+)
+target_link_libraries(ik_test ${catkin_LIBRARIES} ${Boost_LIBRARIES} ${youbot_driver_LIBRARIES})
+
+
 install(TARGETS youbot_driver_ros_interface youbot_arm_test
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )

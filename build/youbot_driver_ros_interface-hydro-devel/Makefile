@@ -329,6 +329,20 @@ fk_test/fast:
 .PHONY : fk_test/fast
 
 # Convenience name for target.
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/rule:
+	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/rule
+.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/rule
+
+# Convenience name for target.
+ik_test: youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/rule
+.PHONY : ik_test
+
+# fast build rule for target.
+ik_test/fast:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/build
+.PHONY : ik_test/fast
+
+# Convenience name for target.
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
 	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 .PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
@@ -736,6 +750,30 @@ src/examples/fk_test.cpp.s:
 	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/src/examples/fk_test.cpp.s
 .PHONY : src/examples/fk_test.cpp.s
 
+src/examples/ik_test.o: src/examples/ik_test.cpp.o
+.PHONY : src/examples/ik_test.o
+
+# target to build an object file
+src/examples/ik_test.cpp.o:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/src/examples/ik_test.cpp.o
+.PHONY : src/examples/ik_test.cpp.o
+
+src/examples/ik_test.i: src/examples/ik_test.cpp.i
+.PHONY : src/examples/ik_test.i
+
+# target to preprocess a source file
+src/examples/ik_test.cpp.i:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/src/examples/ik_test.cpp.i
+.PHONY : src/examples/ik_test.cpp.i
+
+src/examples/ik_test.s: src/examples/ik_test.cpp.s
+.PHONY : src/examples/ik_test.s
+
+# target to generate assembly for a file
+src/examples/ik_test.cpp.s:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/src/examples/ik_test.cpp.s
+.PHONY : src/examples/ik_test.cpp.s
+
 src/examples/youbot_2nd_arm_test.o: src/examples/youbot_2nd_arm_test.cpp.o
 .PHONY : src/examples/youbot_2nd_arm_test.o
 
@@ -852,6 +890,7 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... fk_test"
+	@echo "... ik_test"
 	@echo "... install"
 	@echo "... install/local"
 	@echo "... install/strip"
@@ -891,6 +930,9 @@ help:
 	@echo "... src/examples/fk_test.o"
 	@echo "... src/examples/fk_test.i"
 	@echo "... src/examples/fk_test.s"
+	@echo "... src/examples/ik_test.o"
+	@echo "... src/examples/ik_test.i"
+	@echo "... src/examples/ik_test.s"
 	@echo "... src/examples/youbot_2nd_arm_test.o"
 	@echo "... src/examples/youbot_2nd_arm_test.i"
 	@echo "... src/examples/youbot_2nd_arm_test.s"
