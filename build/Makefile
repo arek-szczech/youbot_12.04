@@ -602,6 +602,19 @@ actionlib_msgs_generate_messages_py/fast:
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named arm_keyboard_control
+
+# Build rule for target.
+arm_keyboard_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arm_keyboard_control
+.PHONY : arm_keyboard_control
+
+# fast build rule for target.
+arm_keyboard_control/fast:
+	$(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/build
+.PHONY : arm_keyboard_control/fast
+
+#=============================================================================
 # Target rules for targets named control_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -691,6 +704,19 @@ fk_test: cmake_check_build_system
 fk_test/fast:
 	$(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/build
 .PHONY : fk_test/fast
+
+#=============================================================================
+# Target rules for targets named fk_test_1
+
+# Build rule for target.
+fk_test_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 fk_test_1
+.PHONY : fk_test_1
+
+# fast build rule for target.
+fk_test_1/fast:
+	$(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/build
+.PHONY : fk_test_1/fast
 
 #=============================================================================
 # Target rules for targets named ik_test
@@ -1065,6 +1091,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... arm_keyboard_control"
 	@echo "... control_msgs_generate_messages_cpp"
 	@echo "... control_msgs_generate_messages_lisp"
 	@echo "... control_msgs_generate_messages_py"
@@ -1072,6 +1099,7 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_lisp"
 	@echo "... diagnostic_msgs_generate_messages_py"
 	@echo "... fk_test"
+	@echo "... fk_test_1"
 	@echo "... ik_test"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_lisp"

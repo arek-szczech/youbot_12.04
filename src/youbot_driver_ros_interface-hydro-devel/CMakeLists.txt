@@ -74,6 +74,16 @@ add_executable(ik_test
 )
 target_link_libraries(ik_test ${catkin_LIBRARIES} ${Boost_LIBRARIES} ${youbot_driver_LIBRARIES})
 
+add_executable(fk_test_1 
+    src/examples/fk_test_1.cpp 
+)
+target_link_libraries(fk_test_1 ${catkin_LIBRARIES} ${Boost_LIBRARIES} ${youbot_driver_LIBRARIES})
+
+add_executable(arm_keyboard_control 
+    src/examples/arm_keyboard_control.cpp 
+)
+target_link_libraries(arm_keyboard_control ${catkin_LIBRARIES} ${Boost_LIBRARIES} ${youbot_driver_LIBRARIES} pthread ncurses)
+
 
 install(TARGETS youbot_driver_ros_interface youbot_arm_test
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}

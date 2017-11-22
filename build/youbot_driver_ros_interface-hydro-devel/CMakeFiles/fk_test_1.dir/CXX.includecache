@@ -96,7 +96,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/arek/youbot/src/youbot_driver_ros_interface-hydro-devel/src/examples/ik_test.cpp
+/home/arek/youbot/src/youbot_driver_ros_interface-hydro-devel/src/examples/fk_test_1.cpp
 iostream
 -
 assert.h
@@ -131,6 +131,8 @@ boost/units/systems/angle/degrees.hpp
 -
 boost/units/conversion.hpp
 -
+std_msgs/String.h
+/home/arek/youbot/src/youbot_driver_ros_interface-hydro-devel/src/examples/std_msgs/String.h
 math.h
 -
 
@@ -775,6 +777,22 @@ ros/forwards.h
 /opt/ros/hydro/include/rosconsole/macros_generated.h
 
 /opt/ros/hydro/include/std_msgs/Header.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/opt/ros/hydro/include/std_msgs/String.h
 string
 -
 vector

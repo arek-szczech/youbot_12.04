@@ -78,11 +78,11 @@ int main(int argc, char **argv) {
 
 	ros::Rate rate(20); //Hz
 
-	double a1 = 033;
-	double d1 = 147;
-	double a2 = 155;
-	double a3 = 135;
-	double d5 = 218;
+	double a1 = 0.033;
+	double d1 = 0.147;
+	double a2 = 0.155;
+	double a3 = 0.135;
+	double d5 = 0.218;
 
 	double x; //wspolrzedna x koncowki manipulatora
 	double y; //wspolrzedna y koncowki manipulatora
@@ -119,32 +119,6 @@ int main(int argc, char **argv) {
 	double theta_4;
 	double theta_5;
 
-//offsety od svena
-/*	double offset1 = 2.9496;
-    double offset2 = 1.1344;
-    double offset3 = -2.5481;
-    double offset4 = 1.7990;
-    double offset5 = 2.9234; */
-
-//offsety z pozycji folded_v2
-   	double offset1 = -2.9395308;
-	double offset2 = 2.7138692;
-	double offset3 = -2.562508;
-	double offset4 = 1.8093239;
-	double offset5 = -2.812781;
-
-//offsety z pozycji folded_v1
-/*	double offset1 = 0.2020612;
-	double offset2 = 0.009639505;
-	double offset3 = 2.434182;
-	double offset4 = -1.2206461;
-	double offset5 = 0.110619; */
-
-
-	//double xk;
-	//double yk;
-	//double zk;
-
 	static const int numberOfArmJoints = 5;
 	static const int numberOfGripperJoints = 2;
 	while (n.ok()) {
@@ -170,95 +144,63 @@ int main(int argc, char **argv) {
 	cout << "Podaj rotacje wokol osi x: ";
 	cin >> Rx;
 
-		cout << " " << endl;
-		cout << "Liczenie kinematyki odwrotnej: " << endl;
-
 	//Obliczanie macierzy RPY
 	RPY_3_1 = cos(Rz)*sin(Ry)*cos(Rx) + sin(Rz)*sin(Rx);
-		cout << "RPY_3_1: " <<  RPY_3_1 << endl;	
 	RPY_3_2 = sin(Rz)*sin(Ry)*cos(Rx) - cos(Rz)*sin(Rx);
-		cout << "RPY_3_2: " <<  RPY_3_2 << endl;
 	RPY_3_3 = cos(Ry)*cos(Rx);
-		cout << "RPY_3_3: " <<  RPY_3_3 << endl;
 
 	// Odwrotna
 	theta_1 = atan2(y,x);
-		cout << "theta_1: " <<  theta_1 << endl;
 
-	beta = atan2(RPY_3_3,sqrt(RPY_3_1*RPY_3_1 + RPY_3_2*RPY_3_2));
-		cout << "beta: " <<  beta << endl;
+	beta = atan2(RPY_3_3,sqrt((RPY_3_1)^2 + (RPY_3_2)^2));
 
-	xp4 = x - a1*cos(theta_1) - d5*cos(theta_1)*cos(beta);
-		cout << "xp4: " <<  xp4 << endl;
-	yp4 = y - a1*sin(theta_1) - d5*sin(theta_1)*cos(beta);
-		cout << "yp4: " <<  yp4 << endl;
-	zp4 = z - d1 - d5*sin(beta);
-		cout << "zp4: " <<  zp4 << endl;
+	xp4 = xk - a1*cos(theta_1) - d5*cos(theta_1)*cos(beta);
+	xp4 = yk - a1*sin(theta_1) - d5*sin(theta_1)*cos(beta);
+	zp4 = zk - d1 - d5*sin(beta);
 
-	l = sqrt(xp4*xp4 + yp4*yp4 + zp4*zp4);
-		cout << "l: " <<  l << endl;
+	l = sqrt(xp4^2 + yp4^2 + zp4^2);
 
-	cos_phi = (a2*a2 + a3*a3 - l*l)/(2*a2*a3);
-		cout << "cos_phi: " <<  cos_phi << endl;
-	sin_phi = sqrt(1 - cos_phi*cos_phi);
-		cout << "sin_phi: " <<  sin_phi << endl;
+	cos_phi = (a2^2 + a3^2 - l^2)/(2*a2*a3);
+	sin_phi = sqrt(1 - cos_phi^2);
 
 	phi = atan2(sin_phi,cos_phi);
-		cout << "phi: " <<  phi << endl;
+
 	if (Rx == 0)
 		theta_3 = (-1)*(M_PI - phi);
 	else if (Rx == M_PI)
 		theta_3 = M_PI - phi;
-//
-	A = atan2(zp4,sqrt(xp4*xp4 + yp4*yp4));
-		cout << "A: " <<  A << endl;
 
-	cos_B = (a2*a2 + l*l - a3*a3)/(2*l*a2);
-		cout << "cos_B: " <<  cos_B << endl;	
-	sin_B = sqrt(1-cos_B*cos_B);
-		cout << "sin_B: " <<  sin_B << endl;
-	B = atan2(sin_B,cos_B);
-		cout << "B: " <<  B << endl;
+	A = atan2(zp4,sqrt(xp4^2 + yp4^2));
+
+	cos_B = (a2^2 + l^2 - a3^2)/(2*l*a2);
+	sin_B = sqrt(1-cos_B^2);
+
+	B = atan2(sin_B,cos_B)
 
 	if (theta_3 < 0)
     	theta_2 = (-1)*(A - B);
 	else if (theta_3 > 0)
     	theta_2 = (-1)*(A + B);
 	else if (theta_3 == 0)
-    	theta_2 = atan2(zp4,sqrt(xp4*xp4 + yp4*yp4));
+    	theta_2 = atan2(zp4,sqrt(xp4^2 + yp4^2));
 	else if (theta_3 == (-1)*M_PI)
-    	theta_2 = atan2(zp4,sqrt(xp4*xp4 + yp4*yp4));
+    	theta_2 = atan2(zp4,sqrt(xp4^2 + yp4^2));
 
     theta_4 = (-1)*(beta + theta_2 + theta_3);
 
     theta_5 = 0;
 
-    cout << "" << endl;
-	cout << "Wyliczona z IK theta_1: " << theta_1 << endl;
-	cout << "Wyliczona z IK theta_2: " << theta_2 << endl;
-	cout << "Wyliczona z IK theta_3: " << theta_3 << endl;
-	cout << "Wyliczona z IK theta_4: " << theta_4 << endl;
-	cout << "Wyliczona z IK theta_5: " << theta_5 << endl;
-
-/*	armJointPositions[0].value = theta_1;
+	armJointPositions[0].value = theta_1;
 	armJointPositions[1].value = theta_2;
 	armJointPositions[2].value = theta_3;
 	armJointPositions[3].value = theta_4;
-	armJointPositions[4].value = theta_5; */
+	armJointPositions[4].value = theta_5;
 
-	armJointPositions[0].value = theta_1 + offset1;
-	armJointPositions[1].value = theta_2 + offset2;
-	armJointPositions[2].value = theta_3 + offset3;
-	armJointPositions[3].value = theta_4 + offset4;
-	armJointPositions[4].value = theta_5 + offset5; 
-
-    cout << "" << endl;
-    cout << "Wysylana do robota theta_1: " << armJointPositions[0].value << endl;
-    cout << "Wysylana do robota theta_2: " << armJointPositions[1].value << endl;
-    cout << "Wysylana do robota theta_3: " << armJointPositions[2].value << endl;
-    cout << "Wysylana do robota theta_4: " << armJointPositions[3].value << endl;
-	cout << "Wysylana do robota theta_5: " << armJointPositions[4].value << endl;
-	cout << "" << endl;
+	cout << theta_1 << endl;
+	cout << theta_2 << endl;
+	cout << theta_3 << endl;
+	cout << theta_4 << endl;
+	cout << theta_5 << endl;
 
 		// ::io::base_unit_info <boost::units::si::angular_velocity>).name();
 		for (int i = 0; i < numberOfArmJoints; ++i) {

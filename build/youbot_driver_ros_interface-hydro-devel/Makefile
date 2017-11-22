@@ -231,6 +231,20 @@ actionlib_msgs_generate_messages_py/fast:
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/rule:
+	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/rule
+.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/rule
+
+# Convenience name for target.
+arm_keyboard_control: youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/rule
+.PHONY : arm_keyboard_control
+
+# fast build rule for target.
+arm_keyboard_control/fast:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/build
+.PHONY : arm_keyboard_control/fast
+
+# Convenience name for target.
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule:
 	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
 .PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/control_msgs_generate_messages_cpp.dir/rule
@@ -327,6 +341,20 @@ fk_test: youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/rule
 fk_test/fast:
 	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/build
 .PHONY : fk_test/fast
+
+# Convenience name for target.
+youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/rule:
+	cd /home/arek/youbot/build && $(MAKE) -f CMakeFiles/Makefile2 youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/rule
+.PHONY : youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/rule
+
+# Convenience name for target.
+fk_test_1: youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/rule
+.PHONY : fk_test_1
+
+# fast build rule for target.
+fk_test_1/fast:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/build
+.PHONY : fk_test_1/fast
 
 # Convenience name for target.
 youbot_driver_ros_interface-hydro-devel/CMakeFiles/ik_test.dir/rule:
@@ -726,6 +754,30 @@ src/YouBotOODLWrapper.cpp.s:
 	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/youbot_driver_ros_interface.dir/src/YouBotOODLWrapper.cpp.s
 .PHONY : src/YouBotOODLWrapper.cpp.s
 
+src/examples/arm_keyboard_control.o: src/examples/arm_keyboard_control.cpp.o
+.PHONY : src/examples/arm_keyboard_control.o
+
+# target to build an object file
+src/examples/arm_keyboard_control.cpp.o:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/src/examples/arm_keyboard_control.cpp.o
+.PHONY : src/examples/arm_keyboard_control.cpp.o
+
+src/examples/arm_keyboard_control.i: src/examples/arm_keyboard_control.cpp.i
+.PHONY : src/examples/arm_keyboard_control.i
+
+# target to preprocess a source file
+src/examples/arm_keyboard_control.cpp.i:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/src/examples/arm_keyboard_control.cpp.i
+.PHONY : src/examples/arm_keyboard_control.cpp.i
+
+src/examples/arm_keyboard_control.s: src/examples/arm_keyboard_control.cpp.s
+.PHONY : src/examples/arm_keyboard_control.s
+
+# target to generate assembly for a file
+src/examples/arm_keyboard_control.cpp.s:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/arm_keyboard_control.dir/src/examples/arm_keyboard_control.cpp.s
+.PHONY : src/examples/arm_keyboard_control.cpp.s
+
 src/examples/fk_test.o: src/examples/fk_test.cpp.o
 .PHONY : src/examples/fk_test.o
 
@@ -749,6 +801,30 @@ src/examples/fk_test.s: src/examples/fk_test.cpp.s
 src/examples/fk_test.cpp.s:
 	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test.dir/src/examples/fk_test.cpp.s
 .PHONY : src/examples/fk_test.cpp.s
+
+src/examples/fk_test_1.o: src/examples/fk_test_1.cpp.o
+.PHONY : src/examples/fk_test_1.o
+
+# target to build an object file
+src/examples/fk_test_1.cpp.o:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/src/examples/fk_test_1.cpp.o
+.PHONY : src/examples/fk_test_1.cpp.o
+
+src/examples/fk_test_1.i: src/examples/fk_test_1.cpp.i
+.PHONY : src/examples/fk_test_1.i
+
+# target to preprocess a source file
+src/examples/fk_test_1.cpp.i:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/src/examples/fk_test_1.cpp.i
+.PHONY : src/examples/fk_test_1.cpp.i
+
+src/examples/fk_test_1.s: src/examples/fk_test_1.cpp.s
+.PHONY : src/examples/fk_test_1.s
+
+# target to generate assembly for a file
+src/examples/fk_test_1.cpp.s:
+	cd /home/arek/youbot/build && $(MAKE) -f youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/build.make youbot_driver_ros_interface-hydro-devel/CMakeFiles/fk_test_1.dir/src/examples/fk_test_1.cpp.s
+.PHONY : src/examples/fk_test_1.cpp.s
 
 src/examples/ik_test.o: src/examples/ik_test.cpp.o
 .PHONY : src/examples/ik_test.o
@@ -882,6 +958,7 @@ help:
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... arm_keyboard_control"
 	@echo "... control_msgs_generate_messages_cpp"
 	@echo "... control_msgs_generate_messages_lisp"
 	@echo "... control_msgs_generate_messages_py"
@@ -890,6 +967,7 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... fk_test"
+	@echo "... fk_test_1"
 	@echo "... ik_test"
 	@echo "... install"
 	@echo "... install/local"
@@ -927,9 +1005,15 @@ help:
 	@echo "... src/YouBotOODLWrapper.o"
 	@echo "... src/YouBotOODLWrapper.i"
 	@echo "... src/YouBotOODLWrapper.s"
+	@echo "... src/examples/arm_keyboard_control.o"
+	@echo "... src/examples/arm_keyboard_control.i"
+	@echo "... src/examples/arm_keyboard_control.s"
 	@echo "... src/examples/fk_test.o"
 	@echo "... src/examples/fk_test.i"
 	@echo "... src/examples/fk_test.s"
+	@echo "... src/examples/fk_test_1.o"
+	@echo "... src/examples/fk_test_1.i"
+	@echo "... src/examples/fk_test_1.s"
 	@echo "... src/examples/ik_test.o"
 	@echo "... src/examples/ik_test.i"
 	@echo "... src/examples/ik_test.s"
